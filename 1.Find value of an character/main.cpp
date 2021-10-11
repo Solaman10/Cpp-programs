@@ -5,22 +5,21 @@ class ASCII
 {
     public:
         
-        char letter;
+        char charac;
         
         void character()
         {
-         cout<<"Enter letter: ";
-         cin>>letter;
+         cout<<"Please, Enter a character: ";
+         cin>>charac;
         }    
         void value()
         {
-         cout<<"The entered letter's value is: " <<(int)letter;
+         cout<<"\nThe entered character's ASCII value is: " <<(int)charac;
         }
 };
 
     int main()
     {
-        char s;
         ASCII alphabet;
         alphabet.character();
         alphabet.value();
